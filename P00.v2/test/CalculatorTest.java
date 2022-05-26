@@ -54,15 +54,15 @@ public class CalculatorTest {
 	@Test
 	public void testAdd() {
 		//fail("Not yet implemented");
-		//variables
+		//act
 		int a = 1234;
 		int b = 8765;
 		
-		//functions - sum
+		//assert
 		Calculator cal = new Calculator();
 		int actual = cal.add(a, b);
 		
-		//test
+		//arrange
 		int expected = 9999;
 		assertEquals(expected,actual);
 	}
@@ -70,45 +70,45 @@ public class CalculatorTest {
 	
 	@Test
 	public void testSubtract() {
-		//variables
+		//act
 		int a = 9876;
 		int b = 4321;
 		
-		//functions - subtraction
+		//assert
 		Calculator cal = new Calculator();
 		int actual = cal.subtract(a, b);
 		
-		//test
+		//arrange
 		int expected = 5555;
 		assertEquals(actual,expected);
 	}
 	
 	@Test
 	public void testMultiply() {
-		//variables
+		//act
 		int a = 55;
 		int b = 101;
 		
-		//functions - multiplication
+		//assert
 		Calculator cal = new Calculator();
 		int actual = cal.multiply(a, b);
 		
-		//test
+		//arrange
 		int expected = 5555;
 		assertEquals(actual,expected);
 	}
 	
 	@Test
 	public void testDivide() {
-		//variables
+		//act
 		int a = 5555;
 		int b = 5;
 		
-		//functions - division
+		//assert
 		Calculator cal = new Calculator();
 		int actual = cal.divide(a, b);
 		
-		//test
+		//arrange
 		int expected = 1111;
 		assertEquals(actual,expected);
 	}
